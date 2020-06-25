@@ -4,6 +4,5 @@ document.addEventListener( "DOMContentLoaded", function () {
   
   
 function updateDOM() {
-    document.getElementById( "text" )
-      .innerHTML = "This is really cool!";
+    document.getElementById('divA').textContent = 'This is really cool!';
 }
